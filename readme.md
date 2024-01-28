@@ -22,7 +22,7 @@ Paul's website is designed with simplicity and functionality in mind. It feature
 │ ├── scripts
 │ │     └── script.js
 │ ├── stylesheets
-│ │ └── styles.css
+│ │     └── styles.css
 │ └── images
 │       ├── directory_closed-4.png
 │       ├── close-icon.png
