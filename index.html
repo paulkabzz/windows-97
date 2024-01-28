@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul Kabulu</title>
+    <link rel="stylesheet" href="./assets/stylesheets/styles.css">
+    <script src="./assets/js/script.js" defer></script>
+</head>
+<body>
+
+    <div class="screen">
+
+        <div class="overlay"></div>
+
+        <div class="folders">
+                <div class="projects-folder folder">
+                        <img src="./assets/images/directory_closed-4.png" alt="Folder">
+                        <p class="folder-name">Projects</p>
+                </div>
+        </div>
+
+        <div class="folder-modal pos-check" id="mydiv">
+            <div class="fold-header myivheader" >
+                <div class="header-left"></div>
+                <div class="header-right">
+                    <button class="windows-button" style="padding:0; height:16px;width:16px;position:relative;"><img src="./assets/images/close-icon.png" style="position:absolute;left:1px;top:0px;"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="terminal pos-check" id="mydiv" style="width: 600px;height: 500px;">
+            <div class="term-header myivheader">
+                <div class="cmd-icon">
+                    <img src="./assets/images/icons8-cmd-50.png" alt="">
+                </div>
+               
+            </div>
+
+            <div class="cmd-lower">
+
+                <div id="output" class="lower-cmd-inner">
+                    Microsoft Windows [Version 10.0.21996.1]
+                    <br>
+                    (c) Microsoft Corporation. All rights reserved.
+                    <br>
+                    <br>
+                </div>
+
+                <div id="inputContainer">
+                    <span id="prompt">C:\Users\Paul></span>
+                    <span id="cursor">&#x2588;</span>
+                    <input type="text" id="input" autofocus autocomplete="off" />
+                   
+                </div>
+                
+            </div>
+        </div>
+       
+        <div class="start-menu">
+            <div class="inner-start-menu">
+                <header class="header">
+                    <div class="outer-pic">
+                        <div class="pic"></div>
+                    </div>
+                    <div class="name">
+                        Paul
+                    </div>
+                </header>
+                <div class="strip"></div>
+            </div>
+
+        </div>
+        <div class="taskbar">
+            <div class="start">
+                <!-- <img src="./assets/images/windows-start-button-icon-download-13-removebg-preview.png" alt=""> -->
+            </div>
+            <div class="tasks"></div>
+        </div>
+    </div>
+
+    <audio id="myAudio">
+        <source src="./assets/other/microsoft_windows_xp_startup_sound_mp3_72237.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      
+
+          
+</body>
+</html>
