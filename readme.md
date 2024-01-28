@@ -33,7 +33,7 @@ Paul's website is designed with simplicity and functionality in mind. It feature
 
 + The ``assets`` directory contains subdirectories for images, additional resources, and stylesheets.
 + The ``index.html`` file is the main HTML file for the website.
-+ The ``script.js`` file contains JavaScript code for website functionality.
++ The ``/asstets/scripts/script.js`` file contains JavaScript code for website functionality.
 
 ## Features
 
