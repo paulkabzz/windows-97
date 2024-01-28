@@ -2,6 +2,8 @@
 
 Welcome to Paul Kabulu's personal website repository! This repository contains the code for Paul's website, where you can find information about his projects, skills, and more. Below is an overview of the structure and functionality of the website. The site is currently incomplete at this moment.
 
+You can view the site [here](https://paulkabzz.github.io/windows-97/).
+
 ## Table of Contents
 
 + Overveiw
