@@ -417,23 +417,3 @@ document.addEventListener("DOMContentLoaded", function() {
 
 //f(x).f'(x) > 0, when f(x) < 0 and f'(x) > 0
 
-/*
-
-UCT - BBusSc Computer Science, Bcom Computer Science with Information Systems, BSc Mathematical Statistics (Extended)
-
-Wits - BSc Computer Science, BCom Information Systems, BCom Information Systems, BSc(Eng) Electrical Engineering
-
-Rhodes University - BSc Computer Science, BBusSc Computer Science, BCom Information Systems
-
-Walter Sisulu University - BSc Computer Science,  
-
-*/
-
-//Phys: 60% 5
-//Math: 85% 7
-//LO: 85%   7
-//CAT: 80%  7
-//ENG: 70%  6
-//AFR: 60%  5
-//LS: 65%   5
-//Avg: 74%
