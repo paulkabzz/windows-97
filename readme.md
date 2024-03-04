@@ -1,6 +1,6 @@
 # Windows 97 Portfolio Website
 
-Welcome to Paul Kabulu's personal website repository! This repository contains the code for Paul's website, where you can find information about his projects, skills, and more. Below is an overview of the structure and functionality of the website. The site is currently incomplete at this moment.
+Welcome to my personal website repository! This repository contains the code for my portfolio website, where you can find information about my projects, skills, and more. Below is an overview of the structure and functionality of the website. The site is currently incomplete at this moment.
 
 You can view the site [here](https://paulkabzz.github.io/windows-97/).
 
@@ -14,7 +14,7 @@ You can view the site [here](https://paulkabzz.github.io/windows-97/).
 
 ## Overview
 
-Paul's website is designed with simplicity and functionality in mind. It features a clean interface with various interactive elements, inspired by the Windows 97 UI. Users can navigate through different sections of the website and interact with certain components, such as folders and a command-line terminal.
+My website is designed with simplicity and functionality in mind. It features a clean interface with various interactive elements, inspired by the Windows 97 UI. Users can navigate through different sections of the website and interact with certain components, such as folders and a command-line terminal.
 
 ``` bash
 ├── assets
@@ -57,5 +57,5 @@ To run the website locally, simply open the ``index.html`` file in a web browser
 
 ## Contributing
 
-If you'd like to contribute to Paul's website, feel free to submit pull requests or open issues in this repository. Contributions, feedback, and suggestions are always welcome!
+If you'd like to contribute to my website, feel free to submit pull requests or open issues in this repository. Contributions, feedback, and suggestions are always welcome!
 
