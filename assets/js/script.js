@@ -255,7 +255,6 @@ document.addEventListener("DOMContentLoaded", function() {
 	});
 
   input.addEventListener("keydown", function(event) {
-    // ... (your existing keydown event code) ...
   
     // Handle tab key press for tab completion
      if (event.key === "Tab") {
@@ -288,7 +287,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
   function getMatchingDirectories(directory) {
     // Implement logic to get the directories that match the input
-    // For example, you can use the existing 'isDirectoryExists' function
+   
     const existingDirectories = ["projects", "about", "languages"];
     return existingDirectories.filter((dir) => dir.startsWith(directory));
   }
@@ -324,7 +323,7 @@ document.addEventListener("DOMContentLoaded", function() {
         return clearOutput();
       case "exit":
 	  case "exit()":
-        return closeTerminal(); // You can add additional functionality to handle cleanup here if needed
+        return closeTerminal(); 
       case "history":
         return showCommandHistory();
       default:
@@ -355,7 +354,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	function changeDirectory(directory) {
 		if (directory === "..") {
 			// Handle moving up to the parent directory (if not already at the root)
-			const rootDirectory = "C:\\Users\\Paul"; // Replace this with the root directory
+			const rootDirectory = "C:\\Users\\Paul"; 
 			if (currentDirectory !== rootDirectory) {
 				const lastSlashIndex = currentDirectory.lastIndexOf("\\");
 				currentDirectory = currentDirectory.slice(0, lastSlashIndex);
@@ -379,7 +378,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	}
 
 	function isDirectoryExists(directory) {
-		// You can replace this dummy implementation with your actual check for directory existence
+		
 		const existingDirectories = ["projects", "about", "languages"];
 		if (existingDirectories.includes(directory.split("\\").pop())) {
 			currentLineDirectory = directory; // Update the current line directory
@@ -414,6 +413,4 @@ document.addEventListener("DOMContentLoaded", function() {
 	// Display the initial prompt
 	displayOutput('');
 });
-
-//f(x).f'(x) > 0, when f(x) < 0 and f'(x) > 0
 
